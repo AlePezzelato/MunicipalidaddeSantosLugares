@@ -5,4 +5,7 @@ jueves 13 seccion de la foto de la municipalidad
 cambie la foto de la municipalidad
 Termine las secciones faltantes
 agregue font awesonne y lo linkee
-flata dar forma a los botones de la seccion de servicios y darle forma al footer 
+flata dar forma a los botones de la seccion de servicios y darle forma al footer
+Agregamos el logo
+acomodamos el footer
+corregimos color de fondo del inicio de secciones 

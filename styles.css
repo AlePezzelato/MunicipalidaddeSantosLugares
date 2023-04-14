@@ -5,27 +5,44 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* INICIO DEL HEADER*/
 header{
     background-color:rgb(79, 99, 161);
     width: auto;
-    height: 180px;
+    height: 238px;
     padding-left: 20px;
     padding-right: 15px;
     margin-left: 10px;
     margin-right: 10px;
     border: none;
+    margin-top: 2px;
 }
 
 header div div a {
     color: black;
+    margin-top: 5px;
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3px;
 }
 .titulo {
     font-family: 'Caveat', cursive;
     font-size: 70px;
-    text-align:center;
-    text-overflow: ellipsis;
 }
+.contenedor{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: small;
+    margin-top: 5px;
+}
+/*FIN DEL HEADER*/
+
+/*INICIO DEL MAIN*/
 .foto {
     width: 1100px;
     height: 445px;
@@ -39,7 +56,7 @@ header div div a {
 .contenedoruno{
     display: block;
     margin-left: 100px;
-    margin-right: 70px;    
+    margin-right: 70px; 
 }
 
 .avanzamos{
@@ -49,60 +66,52 @@ header div div a {
     position: absolute;
     top: 35%;
     left: 60%;
+    margin-top: 50px;
     }
-
-
-.contenedor{
-    display: flex;
-    font-family: 'Times New Roman', Times, serif;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: small;
-}
-
+/*BOTONES DEL HEADER*/
 .gobierno {
     border: 1px solid black; 
     padding: 20px; 
-    background-color: rgb(99, 161,79);
+    background-color: rgb(99, 161, 79);
     color: #ffffff; 
     text-decoration: none; 
     text-transform: uppercase; 
     font-family: 'Helvetica', sans-serif; 
     border-radius: 25px; 
 }
-
-.servicios {
+.servicios{
     border: 1px solid black; 
     padding: 20px; 
-    background-color: rgb(99, 161, 79); 
+    background-color: rgb(99, 161, 79);
     color: #ffffff; 
     text-decoration: none; 
     text-transform: uppercase; 
     font-family: 'Helvetica', sans-serif; 
-    border-radius: 25px; 
+    border-radius: 25px;   
 }
 
-.noticias {
+.noticias{
     border: 1px solid black; 
     padding: 20px; 
-    background-color: rgb(99, 161, 79); 
+    background-color: rgb(99, 161, 79);
     color: #ffffff; 
     text-decoration: none; 
     text-transform: uppercase; 
     font-family: 'Helvetica', sans-serif; 
     border-radius: 25px; 
 }
-
-.consultas {
-    border: 1px solid black; 
+.consultas{border: 1px solid black; 
     padding: 20px; 
-    background-color: rgb(99, 161, 79); 
+    background-color: rgb(99, 161, 79);
     color: #ffffff; 
     text-decoration: none; 
     text-transform: uppercase; 
     font-family: 'Helvetica', sans-serif; 
     border-radius: 25px; 
 }
+/*FIN BOTONES DEL HEADER*/
+/*INICIO DEL MAIN*/
+/*FOTO DEL EDIFICIO*/
 .fotosPresentacion {    
     margin-top: 40px;
     font-family: 'Arimo', sans-serif;
@@ -114,20 +123,17 @@ header div div a {
     margin-right: 10px;
     border: none;
     }
-
+/*FOTOS DE INTENDENTE Y SECRETARIOS*/
 .gobierno1 {
     background-size: 100%;
-    background-color: rgb(99, 161, 79);
+    background-color: rgb(79, 99, 161);
     font-size: 30px;
 }
-    
-
 .contenedorFotos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
+    }
 .contenedorFotos img {
     border-radius: 50%;
     border: solid 1px;
@@ -136,6 +142,7 @@ header div div a {
     text-align:center;
     font-size: 15px;
 }
+/*SECCION DE BOTONES DE SERVICIOS*/
 .botonesServicios h3{
     margin-top: 40px;
     font-family: 'Arimo', sans-serif;
@@ -153,7 +160,7 @@ header div div a {
 }
 .serviciosUno{
     background-size: 100%;
-    background-color: rgb(99, 161, 79);
+    background-color: rgb(79, 99, 161);
     font-size: 30px;
 }
 .botones{
@@ -168,6 +175,7 @@ header div div a {
     background-color: rgb(161, 79, 99);
     border: solid black;
 }
+/*SECCION DE NOTICIAS*/
 .noticiasuno{
     margin-top: 40px;
     font-family: 'Arimo', sans-serif;
@@ -181,10 +189,16 @@ header div div a {
 }
 .noticiasdos{
     background-size: 100%;
-    background-color: rgb(99, 161, 79);
+    background-color: rgb(79, 99, 161);
     font-size: 30px;
 }
+.card-img-top{
+    height: 285px;
+}
 
+
+/*FIN DEL MAIN*/
+/*INICIO DEL FOOTER*/
 footer{
     margin-top: 40px;
     font-family: 'Arimo', sans-serif;
@@ -196,13 +210,11 @@ footer{
     margin-right: 10px;
     border: none;
 }
-.card-img-top{
-    height: 285px;
-}
 
 .caja{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .cajaUno{
     display: flex;
@@ -211,6 +223,15 @@ footer{
 }
 .reclamosUno{
     background-size: 100%;
-    background-color: rgb(99, 161, 79);
+    background-color: rgb(79, 99, 161);
     font-size: 30px;
 }
+.domicilio{
+    display: flex;
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+/*FIN DEL FOOTER*/
