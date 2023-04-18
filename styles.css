@@ -16,6 +16,7 @@ header{
     margin-right: 10px;
     border: none;
     margin-top: 2px;
+    background-blend-mode: hard-light;
 }
 
 header div div a {
@@ -163,15 +164,29 @@ header div div a {
     background-color: rgb(79, 99, 161);
     font-size: 30px;
 }
-.botones{
+.botonesUno{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: space-around;
 }
-.boton {
-    width: 25%;
+.botonesDos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.botonesTres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+    .boton {
+    width: 20%;
     background-color: rgb(161, 79, 99);
     border: solid black;
 }
